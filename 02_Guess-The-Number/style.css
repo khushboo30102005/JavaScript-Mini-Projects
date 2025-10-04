@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.header {
+  max-width: 1420px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 13px -4px;
+}
+main {
+    max-width: 600px;
+    position: absolute;
+    margin: auto;
+    inset-inline: 14px;
+    top: 75px;
+    padding: 45px;
+    margin-top: 38px;
+    box-shadow: 0 0 9px -6px;
+    border-radius: 15px;
+}
+
+.title,
+.remaining-guesses {
+  max-width: fit-content;
+  margin: auto;
+  line-height: 32px;
+  text-align: center;
+}
+
+#input {
+  width: 95%;
+  height: 50px;
+  padding: 8px;
+  border: 0.3px solid #808080b3;
+  border-radius: 8px;
+}
+#input:focus {
+  outline: none;
+  border-color: #0000db;
+  box-shadow: 0 0 3px 0px blue;
+}
+.range {
+  font-size: 12px;
+}
+.popup {
+  padding: 15px;
+  font-size: 10px;
+  background-color: #4e4d4d;
+  width: fit-content;
+  border-radius: 10px;
+  transform: scale(0);
+  margin-top: -23px;
+  position: absolute;
+  color: #fff;
+}
+.show-popup {
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.button {
+  margin-top: 24px;
+  height: 45px;
+  border: none;
+  padding-inline: 15px;
+  margin-right: 10px;
+  background-color: #ededfb;
+  color: gray;
+  border-radius: 8px;
+  cursor: no-drop;
+}
+
+.blue {
+  background-color: #5959e3;
+  color: #fff;
+  cursor: pointer;
+}
+.blue:hover {
+  background-color: #1717e7;
+}
