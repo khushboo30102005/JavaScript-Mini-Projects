@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(127 195 160 / 20%);
+  font-family: cursive;
+  color: #e7637a;
+}
+
+.container {
+  background-image: linear-gradient(#b5d20f, pink);
+  max-width: max-content;
+  box-shadow: 1px 1px 28px -12px;
+  border-radius: 20px;
+  padding: 10px;
+  position: absolute;
+  margin: auto;
+  inset-block: 0;
+  inset-inline: 5px;
+  height: max-content;
+}
+
+.button {
+  width: 100px;
+  height: 120px;
+  background-color: #ffc0cba1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 36px;
+  margin: 2px;
+  box-shadow: -4px -7px 28px -12px #d18290;
+}
+.quantity {
+  background-color: #b5d20f;
+  color: inherit;
+  border: none;
+  outline: none;
+  margin-top: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 100px;
+}
+
+.increase-button {
+  margin-inline: 10px;
+  margin-block: 40px;
+  cursor: pointer;
+  background-color: #b5d20f;
+  color: inherit;
+  font-weight: 700;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  border: none;
+  box-shadow: -4px -7px 28px -12px #d18290;
+}
