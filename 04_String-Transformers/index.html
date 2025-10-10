@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="script.js" defer></script>
+    <title>String Transformers</title>
+  </head>
+  <body>
+    <h1 class="text-center text-4xl font-semibold shadow-xl py-3 mb-4">
+      String transformers
+    </h1>
+    <div class="text-center p-4">
+      <input
+        type="text"
+        class="max-w-3xl w-full border-[2px] p-2 border-[#E2E8F0]"
+        value="this is a normal sentence to transform"
+        id="input-box"
+        placeholder="type something to transform..."
+      />
+    </div>
+    <p class="text-center text-[#4A5568]">
+      Type any text to see it transformed in different formats below
+    </p>
+    <main class="m-auto mt-8 max-w-[1200px]">
+      <div
+        class="bg-[#F8FAFC] p-4 font-semibold border-[1.5px] border-[#E2E8F0] mx-8 mb-8"
+      >
+        <p>Lower Case</p>
+        <div
+          id="lower"
+          class="border p-3 mt-2 border-[1.5px] border-[#E2E8F0]"
+        ></div>
+      </div>
+      <div
+        class="bg-[#F8FAFC] p-4 font-semibold border-[1.5px] border-[#E2E8F0] mx-8 mb-8"
+      >
+        <p>Upper Case</p>
+        <div
+          id="upper"
+          class="border p-3 mt-2 border-[1.5px] border-[#E2E8F0]"
+        ></div>
+      </div>
+      <div
+        class="bg-[#F8FAFC] p-4 font-semibold border-[1.5px] border-[#E2E8F0] mx-8 mb-8"
+      >
+        <p>Camel Case</p>
+        <div
+          id="camel"
+          class="border p-3 mt-2 border-[1.5px] border-[#E2E8F0]"
+        ></div>
+      </div>
+      <div
+        class="bg-[#F8FAFC] p-4 font-semibold border-[1.5px] border-[#E2E8F0] mx-8 mb-8"
+      >
+        <p>Pascal Case</p>
+        <div
+          id="pascal"
+          class="border p-3 mt-2 border-[1.5px] border-[#E2E8F0]"
+        ></div>
+      </div>
+      <div
+        class="bg-[#F8FAFC] p-4 font-semibold border-[1.5px] border-[#E2E8F0] mx-8 mb-8"
+      >
+        <p>Snake Case</p>
+        <div
+          id="snake"
+          class="border p-3 mt-2 border-[1.5px] border-[#E2E8F0]"
+        ></div>
+      </div>
+      <div
+        class="bg-[#F8FAFC] p-4 font-semibold border-[1.5px] border-[#E2E8F0] mx-8 mb-8"
+      >
+        <p>Kebab Case</p>
+        <div
+          id="kebab"
+          class="border p-3 mt-2 border-[1.5px] border-[#E2E8F0] "
+        ></div>
+      </div>
+      <div
+        class="bg-[#F8FAFC] p-4 font-semibold border-[1.5px] border-[#E2E8F0] mx-8 mb-8"
+      >
+        <p>Trim Case</p>
+        <div
+          id="trim"
+          class="border p-3 mt-2 border-[1.5px] border-[#E2E8F0] max-w-inherit"
+        ></div>
+      </div>
+    </main>
+  </body>
+</html>
