@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <!-- <h1>Weather App</h1> -->
+    <main class="app-container">
+      <h1 class="main-heading">CHECK THE WEATHER!!</h1>
+      <div class="search">
+        <input id="city" type="text" placeholder="Enter city name" /><i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="weather">
+        <div class="img-container">
+          <img class="weather-status" src="" alt="weather Status">
+          <h2 class="weather-status-text"></h2>
+        </div>
+        <h1 id="temperature"></h1>
+        <p class="city"></p>
+        <div class="air-container">
+          <div class="humidity"><img src="images/humidity.png" alt="humidity"></div>
+          <div class="humidity-details">
+            <h3 id="humidity"></h3>
+            <h3>Humidity</h3>
+          </div>
+          <div class="wind-speed"><img src="images/Wind.png" alt="Wind Speed"></div>
+          <div class="wind-speed-details">
+            <h3 id="wind-speed"></h3>
+            <h3 >Wind Speed</h3>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
